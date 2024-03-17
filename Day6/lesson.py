@@ -1,0 +1,6 @@
+print("What is your name?")
+Name = input()
+print("How old are you?")
+Age = input()
+print("What is your surname?")
+Surname = input()
