@@ -1,0 +1,1 @@
+product = ["milk", "bread", "oil"]
