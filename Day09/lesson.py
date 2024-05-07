@@ -19,11 +19,11 @@ print(Hammers<10)
 Shio = 90
 print(Shio<100)
 
-Normal = 60
-print(Normal>50)
-
-Games = 0
-print(Games==0)
-
-Journey = 10
+Journey = 5
 print(Journey<10)
+
+I_Have_No_Idea = 500
+print(I_Have_No_Idea<12)
+
+Bell = 23
+print(Bell>12)
