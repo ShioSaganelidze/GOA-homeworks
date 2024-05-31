@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    width: 20%;
+    text-align: center;
+}
+
+th {
+    background-color: #019879;
+    color: white;
+}
+
+.green {
+    color: #019879;
+    background-color: #f3f3f3;
+}
+
+body {
+    background-color: rgb(82, 116, 116);
+}
+
+td {
+    background-color: white;
+}

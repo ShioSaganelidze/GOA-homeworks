@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    width: 20%;
+}
+
+th {
+    background-color: rgb(28, 31, 37);
+    color: white;
+    text-align: left;
+    height: 2.2em
+}
+
+.grey {
+    background-color: rgb(235, 235, 235);
+}
+
+td {
+    color: rgb(138, 136, 157);
+    height: 2.2em;
+}
+

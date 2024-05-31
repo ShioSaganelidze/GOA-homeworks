@@ -1,0 +1,44 @@
+body {
+    background-color: grey;
+}
+
+.p1 {
+    color: aqua;
+    font-size: large;
+}
+
+.p2 {
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+.p3 {
+    color: blueviolet;
+    font-size: xx-large;
+}
+
+#firstBtn {
+    color: lightcoral;
+    background-color: lightslategray;
+}
+
+#secondBtn {
+    color: lightseagreen;
+    background-color: lightsteelblue;
+}
+
+#thirdBtn {
+    color: lightseagreen;
+    background-color: lightyellow;
+}
+
+
+
+#span1 {
+    color: red;
+    font-size: 40px;
+}
+
+main button{
+    background: violet;
+}
