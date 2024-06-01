@@ -1,0 +1,21 @@
+#underline {
+    text-decoration: underline;
+}
+
+#fontfamily {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#texttransform {
+    text-transform: capitalize;
+}
+
+
+#weight {
+    font-weight: 700;
+}
+
+
+body {
+    background-color: coral;
+}
