@@ -1,0 +1,12 @@
+div {
+    background-color: orange;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border-bottom: 20px dashed green;
+    border-top: 15px solid red;
+    border-left: 30px groove coral;
+    border-radius: 35%;
+    font-size: 50px;
+    border-right: 25px double blue;
+}
