@@ -1,0 +1,46 @@
+ul {
+    list-style: georgian inside url(image);
+    position: relative;
+    left: 100px;
+}
+
+/* a:hover {
+    text-decoration: none;
+    color: blue;
+    letter-spacing: 5px;
+    font-size: 19px;
+    transition: 2s;
+    letter-spacing: 2px;
+} */
+
+a:active {
+    color: green;
+    letter-spacing: 5px;
+}
+
+/* a:visited {
+    color: rgb(190, 26, 26);
+    font-style: normal;
+} */
+
+a {
+    text-decoration: none;
+}
+
+tr:nth-child(even) {
+    background-color: red;
+}
+
+th:nth-child(2) {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+    width: 20%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
