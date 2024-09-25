@@ -1,0 +1,30 @@
+:root {
+    /* root მოქმედებს როგირც variable, root დაგეხმარება დიდ პროექტებში. */
+    --main-color: rgb(122, 168, 184);
+}
+
+div {
+    background-color: var(--main-color);
+    height: 100px;
+    width: 300px;
+    display: flex;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+p {
+    color: var(--main-color);
+}
+
+button {
+    background-color: var(--main-color);
+    color: rgb(99, 33, 33);
+}
+
+#box:hover {
+    transform: translate(120px);
+    -webkit-transform: skew(30deg);
+    -ms-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+}

@@ -1,0 +1,24 @@
+:root {
+    --main-color: red;
+    --sidebar-layout: column;
+}
+
+body {
+    background-color: green;
+    display: flex;
+    flex-direction: var(--sidebar-layout);
+}
+
+div {
+    background-color: var(--main-color);
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    border-color: var(--main-color);
+}
+
+p  {
+    color: var(--sidebar-layout);
+}

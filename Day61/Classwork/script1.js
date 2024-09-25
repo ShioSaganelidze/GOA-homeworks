@@ -1,0 +1,11 @@
+console.log(15 + 2)
+console.log(16 / 2)
+console.log(21 * 19)
+console.log(12.6 + 21.3)
+console.log(18.1 / 3.7)
+console.log(12.1 * 14.4)
+console.log("50 " + "+ 24 " + "= 74")
+console.log("35 * " + "2 " + "= 70")
+console.log("15 / " + "5 " + "= 3")
+
+alert('Open console for math problems by pressing F12 and choosing "Console" tab!')
