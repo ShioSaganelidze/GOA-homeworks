@@ -1,0 +1,126 @@
+* {
+    font-family: "League Spartan", sans-serif;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.Flex {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+body {
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+
+#GridAndBorder {
+    color: white;
+    font-weight: 400;
+    width: 450px;
+}
+
+span {
+    color: hsl(333, 80%, 67%);
+}
+
+#Border1 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    height: 215px;
+    position: relative;
+    top: 100px;
+}
+
+#Border2 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    height: 215px;
+    position: relative;
+    left: 480px;
+    top: -100px;
+}
+
+#Border3 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    height: 215px;
+    position: relative;
+    left: 960px;
+    top: -298px;
+}
+
+.Small {
+    width: 55px;
+    height: 55px;
+}
+
+.Para {
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.Purple {
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+.stars1 {
+    align-items: baseline;
+    background-color: hsl(300, 24%, 96%);
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 950px;   
+}
+
+.stars2 {
+    align-items: baseline;
+    background-color: hsl(300, 24%, 96%);
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 1000px;
+}
+
+.stars3 {
+    align-items: baseline;
+    background-color: hsl(300, 24%, 96%);
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;   
+    position: relative;
+    left: 1050px;
+}
+
+.Dark {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+#up {
+    position: relative;
+    top: -200px;
+}
