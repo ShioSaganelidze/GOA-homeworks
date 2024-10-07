@@ -1,0 +1,192 @@
+:root {
+    --main-border-radius: 20px;
+}
+
+* {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+h2 {
+    position: relative;
+    top: -570px;
+}
+
+p {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -550px;
+    transition: 0.5s;
+}
+
+p:nth-child(8) {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p:nth-child(4) {
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+p:nth-child(9) {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p:nth-child(7) {
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px none;
+    background-color: hsl(245, 75%, 52%);
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px hsla(245, 75%, 52%, 0.658);
+    position: relative;
+    left: 770px;
+    top: -480px;
+    margin-bottom: 100px;
+}
+
+p:nth-child(7):hover {
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px none;
+    background-color: hsl(245, 65%, 60%);
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px hsla(245, 58%, 56%, 0.658);
+    position: relative;
+    left: 770px;
+    top: -480px;
+    margin-bottom: 100px;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.DesaturatedBlue {
+    color: hsl(224, 23%, 55%);
+}
+
+.DesaturatedBlue:nth-child(6) {
+    color: hsl(224, 23%, 55%);
+    position: relative;
+    left: -30px;
+}
+
+.DesaturatedBlue:nth-child(9):hover {
+    color: hsl(225, 28%, 22%);
+    position: relative;
+}
+
+.DarkBlue {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.DarkBlue:nth-child(5) {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -30px;
+    top: -535px;
+}
+
+.DarkBlue {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+#Underline {
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    position: relative;
+    left: 120px;
+    top: -750px;
+}
+
+#Underline:hover {
+    text-decoration: underline;
+    color: hsl(245, 65%, 60%);
+    font-weight: 700;
+    position: relative;
+    left: 120px;
+    top: -750px;
+}
+
+#VeryPaleBlue {
+    color: hsl(225, 100%, 98%);
+}
+
+#border {
+    border: none 2px;
+    background-color: hsl(225, 100%, 98%);
+    width: 450px;
+    height: 600px;
+    position: relative;
+    top: -5px;
+    z-index: -1;
+    border-bottom-left-radius: var(--main-border-radius);
+    border-bottom-right-radius: var(--main-border-radius);
+}
+
+.BoxAndImg {
+    position: relative;
+    left: 38%;
+    top: 100px;
+}
+
+.BoxAndImg:nth-child(1) {
+    border-top-left-radius: var(--main-border-radius);
+    border-top-right-radius: var(--main-border-radius);
+}
+
+.BoxAndImg:nth-child(2) {
+    border: none 2px;
+    background-color: hsl(225, 100%, 98%);
+    width: 450px;
+    height: 700px;
+    position: relative;
+    z-index: -1;
+    top: -5px;
+    border-bottom-left-radius: var(--main-border-radius);
+    border-bottom-right-radius: var(--main-border-radius);
+}
+
+#AnotherBorder {
+    border: 0px none;
+    background-color: hsla(225, 100%, 94%, 0.39);
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    left: 40.8%;
+    top: -860px;
+    z-index: -1;
+}
+
+#Move {
+    position: relative;
+    top: -935px;
+    left: 42%;
+}       
