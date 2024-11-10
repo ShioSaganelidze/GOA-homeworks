@@ -1,0 +1,62 @@
+* {
+    font-family: "Inter", serif;
+}
+
+body {
+    background-image: url(Images/football-soccer-hd-8k-wallpaper-stock-photographic-image_949228-50483.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ButtonJ {
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgb(32, 16, 255);
+    width: 200px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(32, 16, 255);
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    left: 7%;
+    top: 200px;
+    z-index: 10;
+    transition: 0.3s;
+}
+
+img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+    left: 30%;
+    top: 100px;
+}
+
+#Bg {
+    width: 700px;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+    z-index: 9;
+    position: relative;
+    left: 30%;
+    top: 75px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#ButtonJ:hover {
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgb(25, 13, 189);
+    width: 200px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(25, 13, 189);
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    left: 7%;
+    top: 200px;
+    z-index: 10;
+}
