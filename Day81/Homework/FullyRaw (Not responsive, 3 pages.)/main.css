@@ -1,0 +1,500 @@
+* {
+    font-family: "Roboto Slab", serif;
+}
+
+body {
+    margin: 0;
+}
+
+#FullyRawLogo {
+    position: fixed;
+    z-index: 100;
+}
+
+#FiveDayJuicing {
+    width: 100%;
+    z-index: -1;
+}
+
+.OrangeBtn {
+    border: none;
+    background-color: #ff5b00;
+    padding: 13px;
+    width: 240px;
+    border-radius: 20px;
+    color: rgb(243, 243, 243);
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+#FixedBar {
+    width: 100%;
+    height: 90px;
+    background-color: #ff590081;
+    position: fixed;
+    z-index: 40;
+}
+
+.OrangeBtn:hover {
+    border: none;
+    background-color: #ff6900;
+    padding: 13px;
+    width: 240px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+#Bar {
+    display: flex;
+    gap: 20px;
+    font-size: small;
+    color: white;
+    margin-right: 30px;
+    position: fixed;
+    right: 40px;
+    top: 30px;
+    font-weight: bold;
+    z-index: 100;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#E-BOOK {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#PurpleBackground {
+    background-color: #7e2663;
+    padding: 25px;
+    position: relative;
+    top: -4px;
+    padding-bottom: 80px;
+}
+
+.Submit1 {
+    border: none;
+    background-color: #ff5b00;
+    padding: 13px;
+    width: 240px;
+    border-radius: 10px;
+    color: rgb(243, 243, 243);
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.Submit1:hover {
+    border: none;
+    background-color: #ff6900;
+    color: white;
+}
+
+#FESubmit {
+    position: relative;
+    left: 450px;
+    top: 30px;
+}
+
+#Dots1 {
+    margin: 50px;
+}
+
+#KindaPurple {
+    font-weight: 400;
+    color: #e20060;
+    font-size: 40px;
+}
+
+#Flex0 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 392px;
+    margin-right: 391px;
+    gap: 30px;
+    margin-bottom: 50px;   
+}
+
+#Flex0 img:nth-child(5) {
+    position: relative;
+    bottom: 400px;
+}
+
+#Flex0 img:nth-child(7) {
+    position: relative;
+    bottom: 400px;
+}
+
+#Flex0 img:nth-child(9) {
+    position: relative;
+    bottom: 800px;
+}
+
+#Flex0 img:nth-child(11) {
+    position: relative;
+    bottom: 800px;
+}
+
+#Flex0 center img {
+    position: relative;
+    bottom: 1200px;
+}
+
+#Flex0 button {
+    display: inline;
+    height: 50px;
+    border: none;
+    background-color: #ff5b00;
+    padding: 13px;
+    width: 200px;
+    border-radius: 10px;
+    color: rgb(243, 243, 243);
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+#Flex0 button:hover {
+    border: none;
+    background-color: #ff6900;
+    color: white;
+}
+
+#Flex0 button:nth-child(2) {
+    display: inline;
+    height: 50px;
+    border: none;
+    background-color: #ff5b00;
+    padding: 13px;
+    width: 200px;
+    border-radius: 10px;
+    color: rgb(243, 243, 243);
+    font-weight: 900;
+    transition: 0.3s;
+    position: absolute;
+    left: 600px;
+    top: 1800px;
+}
+
+#Flex0 button:nth-child(4) {
+    display: inline;
+    height: 50px;
+    border: none;
+    background-color: #ff5b00;
+    padding: 13px;
+    width: 200px;
+    border-radius: 10px;
+    color: rgb(243, 243, 243);
+    font-weight: 900;
+    transition: 0.3s;
+    position: absolute;
+    left: 1150px;
+    top: 1800px;
+}
+
+#Flex0 button:nth-child(6) {
+    display: inline;
+    height: 50px;
+    border: none;
+    background-color: #ff5b00;
+    padding: 13px;
+    width: 200px;
+    border-radius: 10px;
+    color: rgb(243, 243, 243);
+    font-weight: 900;
+    transition: 0.3s;
+    position: absolute;
+    left: 1150px;
+    top: 2225px;
+}
+
+#Flex0 button:nth-child(8) {
+    display: inline;
+    height: 50px;
+    border: none;
+    background-color: #ff5b00;
+    padding: 13px;
+    width: 200px;
+    border-radius: 10px;
+    color: rgb(243, 243, 243);
+    font-weight: 900;
+    transition: 0.3s;
+    position: absolute;
+    left: 600px;
+    top: 2225px;
+}
+
+#Flex0 button:nth-child(10) {
+    display: inline;
+    height: 50px;
+    border: none;
+    background-color: #ff5b00;
+    padding: 13px;
+    width: 200px;
+    border-radius: 10px;
+    color: rgb(243, 243, 243);
+    font-weight: 900;
+    transition: 0.3s;
+    position: absolute;
+    left: 600px;
+    top: 2650px;
+}
+
+#Flex0 button:nth-child(12) {
+    display: inline;
+    height: 50px;
+    border: none;
+    background-color: #ff5b00;
+    padding: 13px;
+    width: 200px;
+    border-radius: 10px;
+    color: rgb(243, 243, 243);
+    font-weight: 900;
+    transition: 0.3s;
+    position: absolute;
+    left: 1150px;
+    top: 2650px;
+}
+
+#Flex0 button:nth-child(14) {
+    display: inline;
+    height: 50px;
+    border: none;
+    background-color: #ff5b00;
+    padding: 13px;
+    width: 200px;
+    border-radius: 10px;
+    color: rgb(243, 243, 243);
+    font-weight: 900;
+    transition: 0.3s;
+    position: absolute;
+    left: 830px;
+    top: 3075px;
+}
+
+.SmallImgs {
+    width: 540px;
+}
+
+
+
+div center img {
+    position: relative;
+    left: 50%;
+}
+
+#Dots2 {
+    margin-bottom: 50px;
+    position: relative;
+    left: 0px;
+}
+
+.KindaOrange {
+    color: #ff5b00;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.LessWeight {
+    font-weight: 400;
+}
+
+#Video {
+    width: 100px;
+}
+
+.Submit1:nth-child(1) {
+    width: 470px;
+    padding: 17px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+#OrangeFruit {
+    float: right;
+    z-index: -10;
+}
+
+#Dots4 {
+    margin-bottom: 40px;
+    position: relative;
+    left: 0px;
+}
+
+#KristinaC {
+    position: relative;
+    color: white;
+    font-weight: 400;
+    left: 30px;
+    top: 500px;
+    z-index: 11;
+}
+
+#Banner {
+    position: relative;
+    z-index: 10;
+    top: -800px;
+}
+
+.MoveR1 {
+    position: relative;
+    bottom: 940px;
+}
+
+#PosAbsolute1 {
+    position: relative;
+    z-index: 12;
+    top: 980px;
+    left: 80px;
+    line-height: 35px;
+    color: white;
+}
+
+#MoveAbsolute2 {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    position: relative;
+    top: 625px;
+    left: 40px;
+    z-index: 15;
+}
+
+#MoveAbsolute3 {
+    position: relative;
+    top: 450px;
+}
+
+#MoveEverything1 {
+    position: relative;
+    left: 400px;
+}
+
+
+
+
+#CyanBackground {
+    background-color: #1abc9c;
+    padding: 25px;
+    position: relative;
+    top: -4px;
+    padding-bottom: 80px;
+}
+
+#FESubmit1 {
+    position: relative;
+    top: 30px;
+}
+
+
+
+
+.EndBtns .FirstBtns2 button {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 18px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    left: 550px;
+    top: -110px;
+    transition: 0.3s;
+}
+
+.EndBtns .FirstBtns2 button:hover {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 18px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 550px;
+    top: -110px;
+}
+
+.EndBtns .FirstBtns1 button {
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 400px;
+    padding: 7px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    left: 500px;
+    top: -100px;
+    transition: 0.3s;
+}
+
+.EndBtns .FirstBtns1 button:hover {
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 400px;
+    padding: 7px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 500px;
+    top: -100px;
+}
+
+#LineFooter {
+    width: 1px;
+    height: 408px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    top: -300px;
+}
+
+#footerH1 {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -750px;
+    left: -180px;
+    text-shadow: 0 0 2px white;
+    font-weight: 350;
+}
+
+#PurpleBackground1 {
+    background-color: #812165;
+    position: relative;
+    top: -4px;
+}
+
+#footerH1:nth-child(2) {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -650px;
+    left: -370px;
+    text-shadow: 0 0 2px white;
+}
+
+.EndBtns .FirstBtns2 button:nth-child(2) {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 18px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    left: 340px;
+    top: 60px;
+    transition: 0.3s;
+}
+
+.MassiveMove1 {
+    position: relative;
+    top: -1600px;
+}
+
+#MassiveMove2 {
+    position: relative;
+    top: -3250px;
+}
