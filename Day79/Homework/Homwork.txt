@@ -1,0 +1,15 @@
+// ar ixsneba vscode da aq davwere. vscode is not opening and i wrote it here.
+
+let BMI = Number(prompt())
+
+if (BMI < 18.5) {
+    console.log(`Your BMI is ${BMI}, so you are underweight.`)
+}
+
+else if (BMI <= 24.9) {
+    console.log(`Your BMI is ${BMI}, so you are normal weight.`)
+}
+
+else if (BMI > 24.9) {
+    console.log(`Your BMI is ${BMI}, so you are overweight.`)
+}
