@@ -1,0 +1,309 @@
+* {
+    font-family: "Roboto Slab", serif;
+}
+
+body {
+    margin: 0;
+}
+
+#FullyRawLogo {
+    position: fixed;
+    z-index: 100;
+}
+
+#FiveDayJuicing {
+    width: 100%;
+    z-index: -1;
+}
+
+#FixedBar {
+    width: 100%;
+    height: 90px;
+    background-color: #ff590081;
+    position: fixed;
+    z-index: 40;
+}
+
+#Bar {
+    display: flex;
+    gap: 20px;
+    font-size: small;
+    color: white;
+    margin-right: 30px;
+    position: fixed;
+    right: 40px;
+    top: 30px;
+    font-weight: bold;
+    z-index: 100;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#PinkBackground {
+    background-color: #ed145b;
+    height: 110px;
+    position: relative;
+    top: -4px;
+}
+
+#PinkBackground button {
+    border-radius: 10px;
+    font-size: 34px;
+    font-weight: 400;
+    padding: 12.8px 30px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-top: 15px;
+}
+
+.BigPar1 {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    text-align: left;
+    color: rgb(137, 137, 137);
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 362px;
+}
+
+#BigText1 h1 {
+    color: rgb(101, 46, 140);
+    font-weight: 400;
+    line-height: 36.4px;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 362px;
+}
+
+#BigText1 img:nth-child(3) {
+    position: relative;
+    top: -915px;
+    margin-right: 580px;
+}
+
+#BigText1 img:nth-child(4) {
+    position: relative;
+    top: -645px;
+    margin-right: -352px;
+}
+
+.flexContainer1 {
+    display: flex;
+    gap: 10px;
+    margin-top: -4px;
+}
+
+.customH1 {
+    color: rgb(101, 46, 140);
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 43px;
+    margin-bottom: 30px;
+}
+
+.flexContainer2 {
+    display: flex;
+
+}
+
+span {
+    font-weight: 900;
+    color: rgb(237, 20, 91);
+}
+
+.BigPar1:nth-child(11) {
+    margin-left: 500px;
+}
+
+#a280bc {
+    width: 479px;
+    height: 623px;
+    background-color: #a280bc;
+    position: relative;
+    left: 933px;
+    top: -649px;
+}
+
+#a280bc p {
+    color: white;
+    margin-left: 70px;
+    font-size: 21px;
+    position: relative;
+    top: 20px;
+    line-height: 28px;
+}
+
+#a280bc p:nth-child(1) {
+    color: white;
+    margin-left: 70px;
+    font-size: 21px;
+    position: relative;
+    top: 20px;
+    left: -20px;
+    color: #652e8c;
+    font-weight: 900;
+}
+
+#EpicButton {
+    background-color: rgb(238, 238, 238);
+    color: rgba(0, 0, 0, 0.59);
+    font-family: "Quattrocento Sans";
+    font-size: 16px;
+    line-height: 25.6px;
+    background-color: #662e93;
+    width: 499px;
+    height: 112px;
+    border-radius: 10px;
+    border: 0 none;
+    color: white;
+    font-size: 34px;
+    position: relative;
+    top: -620px;
+    position: relative;
+    top: -100px;
+}
+
+#MoveVeryFar123 {
+    position: relative;
+    top: -2890px;
+    z-index: 1;
+}
+
+#CyanBackground {
+    background-color: #1abc9c;
+    padding: 25px;
+    position: relative;
+    top: -4px;
+    padding-bottom: 80px;
+}
+
+#FESubmit1 {
+    position: relative;
+    top: 30px;
+}
+
+
+
+
+.EndBtns .FirstBtns2 button {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 18px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    left: 550px;
+    top: -110px;
+    transition: 0.3s;
+}
+
+.EndBtns .FirstBtns2 button:hover {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 18px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 550px;
+    top: -110px;
+}
+
+.EndBtns .FirstBtns1 button {
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 400px;
+    padding: 7px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    left: 500px;
+    top: -100px;
+    transition: 0.3s;
+}
+
+.EndBtns .FirstBtns1 button:hover {
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 400px;
+    padding: 7px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 500px;
+    top: -100px;
+}
+
+#LineFooter {
+    width: 1px;
+    height: 408px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    top: -300px;
+}
+
+#footerH1 {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -750px;
+    left: -180px;
+    text-shadow: 0 0 2px white;
+    font-weight: 350;
+}
+
+#PurpleBackground1 {
+    background-color: #812165;
+    position: relative;
+    top: -4px;
+}
+
+#footerH1:nth-child(2) {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -650px;
+    left: -370px;
+    text-shadow: 0 0 2px white;
+}
+
+.EndBtns .FirstBtns2 button:nth-child(2) {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 18px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    left: 340px;
+    top: 60px;
+    transition: 0.3s;
+}
+
+.Submit1 {
+    border: none;
+    background-color: #ff5b00;
+    padding: 13px;
+    width: 240px;
+    border-radius: 10px;
+    color: rgb(243, 243, 243);
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+#GiantMove10 {
+    position: relative;
+    top: -2873px;
+}
+
+#GigachadMove999 {
+    position: relative;
+    top: -500px;
+}
