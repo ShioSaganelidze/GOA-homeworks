@@ -1,0 +1,38 @@
+// let x = 10.1232
+// let roundedValue = Math.floor(x)
+// // let roundedValue = Math.round(x)
+
+// console.log(roundedValue)
+
+// let red = Math.floor(Math.random() * 255)
+// console.log(random)
+
+// let green = Math.floor(Math.random() * 255)
+// console.log(random)
+
+// let blue = Math.floor(Math.random() * 255)
+// console.log(random)
+
+// Math object
+// Math.round() - ამრგვალებს მნიშვნელობას ჩვეულებრივად(ზოგადი გზით)
+
+// Math.floor() - ამრგვალებს მნიჭვნელობას იმ რიცხვზე, რაც წერტილამდეა, მაგ: 12.9 --> 12
+
+
+// let name = prompt('Enter your name: ')
+// let crushName = prompt(`Enter your crush's name: `)
+
+// let math = Math.floor(Math.random() * 100)
+
+// console.log(`${name} and ${crushName} are in love by ${math}%`)
+
+
+let listt = ['shio', 'dima', 'nika', 'nodo'];
+
+let prompt1 = prompt('Enter your name: ').toLowerCase();
+
+if (listt.includes(prompt1)) {
+    console.log(`Welcome, ${prompt1}`);
+} else {
+    console.log('No');
+}
